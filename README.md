@@ -127,18 +127,11 @@ or ambiguous):
 
 ```
 ECommerceIQ/
-├── data/
-│   └── Ecommerce.csv               ← place dataset here
-├── models/
-│   ├── best_model.pkl              ← saved on first Streamlit run
-│   └── meta.pkl
-├── outputs/
-│   └── figures/                    ← saved plots (notebook)
 ├── AarfaFatima_ECommerceIQ.py      ← Streamlit application
 ├── AarfaFatima_ECommerceIQ.ipynb   ← Jupyter notebook
 ├── requirements.txt
 ├── README.md
-└── AarfaFatima_ECommerceIQ_ProjectReport.docx
+
 ```
 
 ---

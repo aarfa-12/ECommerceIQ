@@ -954,9 +954,9 @@ def main() -> None:
         )
 
         st.subheader("Cluster Profiles (mean per customer)")
-        prof = (cust.groupby("cluster")[seg_feat + ["purchase_rate", "total_purchases"]]
-                    .mean()
-                    .round(3))
+        prof = (cust.groupby("cluster")[seg_feat + ["total_purchases"]]
+            .mean()
+            .round(3))
         prof.index = [f"Cluster {i}" for i in prof.index]
         st.dataframe(prof, use_container_width=True)
 

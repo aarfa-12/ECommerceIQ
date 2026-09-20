@@ -123,7 +123,7 @@ or ambiguous):
 
 ---
 
-## Folder Structure
+## Repository Structure
 
 ```
 ECommerceIQ/
